@@ -4,11 +4,10 @@
 <meta charset="UTF-8">
 <title>27th Rochdale</title>
 <link rel="stylesheet" href="styles.css">
-	
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body onload="checkCookies()">
 	
 	<header>
 		<div class="row">
@@ -34,7 +33,7 @@
 						<li><a href="#">Join Us</a></li>
 						<li><a href="#">Gallery</a></li>
 						<li><a href="#">News</a></li>
-						<li><a href="#">Old Web</a></li>
+						<li><a href="https://www.rochdaleonline.co.uk/sites/27th-rochdale-scout-group/volunteering-opportunities">Old Web</a></li>
 					</ul></div>
 					
 				</nav>
@@ -49,7 +48,7 @@
 					<h3>Welcome to the</h3>
 					<h4>27th Rochdale</h4>
 					<h1>Scout Group</h1>
-					<a href="" class="button">Read More</a>
+					<a href="" class="button-1">Read More</a>
 				</div>
 			</div>
 		</div>
@@ -83,6 +82,18 @@
 			<div class="container col col-md-one-half col-lg-one-fourth"><img src="images/gallery-8.png" alt=""><button class="btn">Join Now</button></div>
 		</div>
 		
+<!Quotes Section Starts>
+	<section class="quotes-section">
+		<div class="quotes-1">
+			<p>Famous UK Scouts Say:</p>
+			<h5 id="demo"></h5>
+			<script type="text/javascript" src="main.js"></script>
+		</div>
+	</section>
+<!Gropus Section Ends>
+
+<!Groups Section Starts>
+	
 	<section class="cta_section cf">
 		<div class="row">
 			<div class="col col-md-one-quarter">
@@ -118,54 +129,85 @@
 			</div>
 		</div>
 	</section>
-		
+<!Groups Section Ends>
 	</main>
 	
 	<footer>
 		
-		<section class="cta_section cf">
+		<section class="cta_section_2 cf">
 		<div class="row">
-			<div class="col col-md-one-quarter">
-				<a href="" class="button-box">
-					<p class="text-box">Useful Links</p>
-				<div class="info-box-color-1">
-					<p class="text-box">Try new things.<br><br><br>Make new friends.Joining Beavers is just the beginning of your big adventure.</p>
-					<p class="button-2">View Beavers (6-8)&#62;</p>
-				</div></a>
+			<div class="col col-md-one-quarter-2">
+				<div class="footer-box-color-1">
+					<h7>Useful links</h7>
+				</div>
+				
+				<div class="footer-box-color-2">
+					<ul id="menu-useful-links" class="menu footer_menu cf">
+						<li><a href="https://www.westmonktonscoutgroup.org.uk/join">Join Scouting</a></li>
+						<li><a href="https://www.westmonktonscoutgroup.org.uk/about-us">About Us</a></li>
+						<li><a href="https://www.westmonktonscoutgroup.org.uk/news">News and Events</a></li>
+						<li><a href="https://www.westmonktonscoutgroup.org.uk/contact">Contact Us</a></li>
+						<li><a href="https://www.westmonktonscoutgroup.org.uk/contact">Our old web</a></li>
+					</ul>
+				</div>				
 			</div>
 			
-			<div class="col col-md-one-quarter">
-				<a href="" class="button-box">
-				<div class="info-box-color-2">
-					<p class="text-box">Learn and develop new amazing skills.<br><br>Soar to great heights. Being a Cub opens up a whole other world.</p>
-					<p class="button-2">View Cubs (8-10)&#62;</p>
-			  </div></a>
+			<div class="col col-md-one-quarter-2">
+				<div class="footer-box-color-1">
+					<h7>Follow us</h7>
+				</div>
+				
+				<div class="footer-box-color-2">
+					<ul class="menu footer_menu cf">
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="https://www.westmonktonscoutgroup.org.uk/join">Facebook</a></li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-581"><a href="https://www.westmonktonscoutgroup.org.uk/about-us">Twitter</a></li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587"><a href="https://www.westmonktonscoutgroup.org.uk/news">Youtube</a></li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-584"><a href="https://www.westmonktonscoutgroup.org.uk/contact">Instagram</a></li>
+					</ul>
+				</div>				
 			</div>
 			
-			<div class="col col-md-one-quarter">
-				<a href="" class="button-box">
-				<div class="info-box-color-3">
-					<p class="text-box">Come on!!!<br>Jump in and get muddy.<br><br>Give back and get set. Scouts ignore the butterflies and go for it, and soon so will you.&nbsp;</p>
-					<p class="button-2">View Scouts (10-14)&#62;</p>
-			  </div></a>
+			<div class="col col-md-one-quarter-2">
+				<div class="footer-box-color-1">
+					<h7>Contact Us</h7>
+				</div>
+				
+				<div class="footer-box-color-2">
+					<p class="menu footer_menu cf">
+						<a>27th Rochdale Scout Group</a><br>
+						<a></a><br>	
+						<a>Scout Hut</a><br>
+						<a>Watkin St</a><br>
+						<a>Lowerplace</a><br>
+						<a>Rochdale</a><br>
+						<a>OL16 4UJ</a><br>	
+						<a></a><br>	
+						<a>Tel: 01706 643811</a><br>	
+					</p>
+				</div>					
 			</div>
 			
-			<div class="col col-md-one-quarter">
-				<a href="" class="button-box">
-				<div class="info-box-color-4">
-					<p class="text-box">Try more. See more. Do more.<br><br><br>At Explorers, you’ll stand on your own two feet, and make memories to last a lifetime.</p>
-					<p class="button-2">Explorers – 14 to 18 years&#62;</p>
-				</div></a>
+			<div class="col col-md-one-quarter-2">
+				<div class="map-1">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11261.585981403417!2d-2.1413924171985084!3d53.60315297110718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a7364d237e72996!2s27th%20Rochdale%20Scout%20Group!5e0!3m2!1sen!2suk!4v1641752673469!5m2!1sen!2suk" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>			
 			</div>
+			
 		</div>
+			
 	</section>
 		
 		<div class="row">
+<!Copy Right Sextion Starts>
 			<div class="col">
-				<p class="footer-text">©2015 Adobe Systems Incorporated. All rights reserved.</p>
-				<p class="footer-text">Any reference to Prism or any associated logos is for demonstration purposes only and is not intended to refer to any actual organization or event.</p>
+				<p class="footer-text"><h7>© Copyright 2022 27th Rochdale Scout Group. All rights reserved.</h7></p>
 			</div>
+<!Copy Right Sextion Ends>
 		</div>
+
+		
+  
+		
 	</footer>
 
 </body>
